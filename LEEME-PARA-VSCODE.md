@@ -39,3 +39,16 @@ npm run build
 ```
 
 No subir la carpeta `node_modules`; se regenera con `npm install`.
+
+## Exportación estática para Apache/cPanel
+
+Consultar README.md para las instrucciones actualizadas. Antes de publicar:
+
+```bash
+npm run typecheck
+npm run build
+npm run validate:artifact
+npm test
+```
+
+Subir únicamente el contenido completo de `out/` al directorio público del dominio.

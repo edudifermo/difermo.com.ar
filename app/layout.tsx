@@ -7,7 +7,6 @@ const manrope = Manrope({ variable: "--font-sans", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Eduardo Di Fermo | Análisis de Riesgos y Seguros",
   description: "Asesoramiento personalizado en seguros para personas, comercios y empresas. Análisis de riesgos con el respaldo de Valcarce-Deve Brokers.",
-  other: { "codex-preview": "development" },
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
 };
 
