@@ -1,0 +1,31 @@
+WEB DIFERMO.COM.AR — VERSIÓN ESTÁTICA
+
+Esta carpeta funciona con HTML, CSS y JavaScript. El hosting no necesita
+Node.js, PHP, base de datos, instalación de paquetes ni compilación.
+
+PUBLICACIÓN
+1. Guardá una copia de la web que está actualmente en el hosting.
+2. Descomprimí el ZIP en tu computadora.
+3. Subí index.html, styles.css, contacto.js, favicon.svg y las carpetas
+   images y fonts al directorio público del dominio (habitualmente
+   public_html, www o htdocs; depende del proveedor).
+4. index.html debe quedar directamente dentro de ese directorio, no dentro
+   de una carpeta hosting-estatico. Revisá si existe un index.php anterior:
+   algunos servidores lo muestran antes que index.html; conservá una copia
+   y retiralo de la raíz si corresponde a la web reemplazada.
+5. Abrí el dominio y comprobá navegación, imágenes y formulario en un celular.
+
+El formulario abre WhatsApp con el mensaje preparado. El visitante debe
+confirmar el envío en WhatsApp. No envía emails ni guarda consultas en una
+base de datos, igual que el formulario de la versión anterior.
+El enlace Email abre la aplicación de correo del visitante.
+
+EDICIÓN
+- Textos, enlaces y secciones: index.html.
+- Diseño y adaptación a celulares: styles.css.
+- Comportamiento del formulario y número de WhatsApp: contacto.js.
+- Si cambiás un número, actualizá también los enlaces de index.html.
+
+Las fuentes y las imágenes están incluidas y se cargan desde este hosting.
+No subas node_modules, app, db, dist ni el resto del proyecto original.
+La publicación no requiere cambiar el correo ni los DNS del dominio.
